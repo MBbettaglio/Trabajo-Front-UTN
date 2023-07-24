@@ -1,0 +1,198 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 1vh;
+  background-color: var(--color-fondo);
+}
+hr {
+  border-color: #edeff2;
+  border-top: none;
+  border-left: none;
+  border-width: 2px;
+}
+.leftContainer {
+  display: flex;
+}
+.logoDos {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  color: var(--color-principal);
+  align-items: center;
+}
+.logoDos img {
+  width: 2rem;
+}
+.logoDos h2 {
+  font-family: "Pirata One";
+  text-align: center;
+  font-size: 1rem;
+}
+.derechos {
+  display: none;
+}
+
+.conteinerCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.textCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+span {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-weight: 900;
+}
+.goblin {
+  width: 40%;
+  padding: 2vh 0vh;
+}
+.whatsapp {
+  padding: 1vh 1vh;
+  width: 70px;
+  background-color: var(--color-complementario);
+  border-radius: 30%;
+}
+.pagos {
+  display: flex;
+  flex-direction: column;
+}
+.pagosIconos {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.pagos h3 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.pagos img {
+  width: 15%;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-weight: 900;
+}
+.redes h2 {
+  display: flex;
+  justify-content: center;
+  padding: 2vh 0vh;
+}
+.redes a {
+  display: flex;
+  justify-content: center;
+}
+.instagram {
+  background-color: var(--color-complementario);
+  width: 4rem;
+  border-radius: 31%;
+  align-items: center;
+}
+.derechosMovile {
+  color: grey;
+}
+
+.cont a {
+  text-decoration: none;
+  background-image: linear-gradient(
+    90deg,
+    rgba(247, 248, 250) 18%,
+    rgb(255, 31, 117) 100%
+  );
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-weight: 900;
+  color: var(--color-principal);
+}
+a:hover,
+a:focus {
+  background-size: 100% 2px;
+}
+.textCenter img:hover{
+    box-shadow: 2px 2px 10px 1px rgba(252, 0, 80, 0.611);
+}
+.redes img:hover{
+    box-shadow: 3px 2px 10px 1px rgba(252, 0, 80, 0.611);
+}
+.qr{
+  display: none;
+}
+
+/* mediaQuerys */
+
+@media screen and (min-width: 700px) {
+  .derechos {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    color: gray;
+    font-size: 15px;
+  }
+  
+  
+  .derechosMovile {
+    display: none;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 2vh;
+    gap: 2rem;
+  }
+
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+  }
+  .qr{
+    display: flex;
+    border-radius: 4vh;
+    width: 80%;
+  }
+  .conteinerCenter{
+    width: 50%;
+  }
+  .center {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .goblin {
+    width: 30%;
+    padding: 2vh 0vh;
+  }
+  
+  .textCenter{
+    width: 45%;
+    padding-top: 1rem;
+  }
+  .pagos{
+    width: 50%;
+
+  }
+  .redes{
+    width: 25%;
+    justify-content: center;
+    
+  }
+}

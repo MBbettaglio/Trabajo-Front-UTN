@@ -1,0 +1,75 @@
+
+.titleContact{
+    padding: 3vh 0vh;
+    color: grey;
+}
+.conteinerContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vh;
+    flex-direction: column;
+    background-color: var(--color-fondo);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vh;
+    width: auto;
+    padding: 1vh 1.5vh;
+}
+
+
+label span{
+    color: var(--color-principal);
+    font-weight: 400;
+}
+.contact ::placeholder{
+    color: rgba(128, 128, 128, 0.411);
+    font-weight: 400;
+}
+
+.contact textarea{
+    background-color: white;
+    border-radius: 1vh;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 10px;
+    outline: 0;
+    
+}
+.contact button{
+    border: none;
+}
+.conteinerForm{
+    background-color:#f6f0f4;
+    padding: 3vh 3vh;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 700px){
+    .conteinerContact{
+        display: flex;
+        align-items: center;
+    }
+    .conteinerForm{
+        width: 70%;
+        
+    }
+    .titleContact h3{
+        display: flex;
+
+    }
+
+}
+@media screen and (min-width: 1000px){
+
+    .conteinerForm{
+        width: 50%;
+}
+}

@@ -1,0 +1,88 @@
+.conteinerCard{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    background-color:#f6f0f4;
+    border: 0.8rem solid white;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+.imgProducto{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+.conteinerCard h2{
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    background-color: transparent;
+    font-size: 1rem;
+    color: var(--color-principal);
+}
+.conteinerCard h3{
+    background-color: transparent;
+    font-size: 14px;
+    color: var(--color-complementario);
+}
+
+.conteinerCard a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cta {
+    background-color: transparent;
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(255, 157, 193, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: transparent;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+    background-color: transparent;
+  }
+  .cta:hover:before {
+    width: 100%;
+    background: var(--color-principal);
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
