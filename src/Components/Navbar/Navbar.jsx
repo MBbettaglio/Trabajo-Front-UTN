@@ -3,8 +3,7 @@ import "./Navbar.css";
 import Logo from "../../assets/d10.svg";
 import Home from "../../assets/home.svg";
 import ShoppingCart from "../../assets/shoppingCart.svg";
-import Search from "../../assets/search.svg";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
   
@@ -18,13 +17,7 @@ const Navbar = () => {
           </h2>
         </div>
 
-        <div className="input">
-          <input
-            type="text"
-            className="iconoPlaceholder"
-            placeholder=" Buscar Mini ..."
-          />
-        </div>
+  
 
         <nav className="icons">
             <NavLink to="/contact">Contacto</NavLink>

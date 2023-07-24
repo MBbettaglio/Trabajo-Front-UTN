@@ -27,43 +27,6 @@ header {
   font-family: "Pirata One";
 }
 
-.input {
-  padding-right: 7%;
-}
-
-input {
-  border: none;
-  border-radius: 30px;
-  background: white;
-  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1);
-  width: 15rem;
-  padding: 10px;
-  padding-left: 1rem;
-  align-items: center;
-  gap: 20px;
-  display: none;
-  font-family: "Roboto";
-  font-weight: 800;
-  color: var(--color-complementario);
-}
-
-input:focus::placeholder {
-  color: transparent;
-  border-color: transparent;
-  outline: none;
-}
-input:focus {
-  outline: none;
-}
-.iconoPlaceholder::placeholder {
-  color: var(--color-secundario);
-  font-weight: 700;
-  padding-left: 2rem;
-  background-image: url(../../assets/search.svg);
-  background-repeat: no-repeat;
-  background-position: 1px center;
-  background-size: 1.3rem;
-}
 hr {
   border-color: #edeff2;
   border-top: none;
