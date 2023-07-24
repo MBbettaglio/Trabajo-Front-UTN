@@ -21,7 +21,7 @@ const HomePage = () => {
       <div className="titleHome">
         {" "}
         <h1>TableTops</h1>
-        <input
+        <input className="search"
           placeholder="Buscar Mini ..."
           value={searchProduct}
           onChange={(e) => setSearchProduct(e.target.value)}

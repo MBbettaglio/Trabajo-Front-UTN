@@ -29,7 +29,7 @@ input:focus::placeholder {
 input:focus {
   outline: none;
 }
-input::placeholder {
+.search::placeholder {
   color: var(--color-secundario);
   font-weight: 700;
   padding-left: 2rem;
