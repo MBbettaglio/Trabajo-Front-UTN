@@ -38,6 +38,13 @@ input:focus {
   background-position: 1px center;
   background-size: 1.3rem;
 }
+.nonProducts{
+  padding: 2vh;
+  display: flex;
+  background-color: var(--color-fondo);
+  font-size: 25px;
+  justify-content: center;
+}
 @media screen and (min-width: 700px) {
   .titleHome {
     display: flex;
@@ -45,4 +52,11 @@ input:focus {
     align-items: center;
     flex-direction: row;
   }
+  .nonProducts{
+    padding: 7vh;
+    display: flex;
+    background-color: var(--color-fondo);
+    font-size: 30px;
+    justify-content: center;
+}
 }

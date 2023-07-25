@@ -21,7 +21,8 @@ const HomePage = () => {
       <div className="titleHome">
         {" "}
         <h1>TableTops</h1>
-        <input className="search"
+        <input
+          className="search"
           placeholder="Buscar Mini ..."
           value={searchProduct}
           onChange={(e) => setSearchProduct(e.target.value)}
@@ -31,11 +32,18 @@ const HomePage = () => {
         <hr />
 
         <section className="backgroundImg">
-          <div className="productCard">
-            {currentProducts.map((producto) => (
-              <ProductCard producto={producto} key={producto.id} />
-            ))}
-          </div>
+          {currentProducts.length === 0 ? (
+            <div className="nonProducts">
+              {" "}
+              <h1>No encontré lo que buscabas =(</h1>
+            </div>
+          ) : (
+            <div className="productCard">
+              {currentProducts.map((producto) => (
+                <ProductCard producto={producto} key={producto.id} />
+              ))}
+            </div>
+          )}
         </section>
       </div>
     </>
