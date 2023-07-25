@@ -2,14 +2,14 @@
   --color-principal: #ff1f75;
   --color-secundario: #fc016a9f;
   --color-complementario: #f4013a7a;
-  --color-fondo: rgb(247,248,250);
+  --color-fondo: rgb(247, 248, 250);
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1vh 2vw;
+  padding: 1vh 3vw;
   background-color: var(--color-fondo);
 }
 .logo {
@@ -22,7 +22,7 @@ header {
 .logo img {
   width: 8vh;
 }
-.logo h2 {
+.logo a h2 {
   display: none;
   font-family: "Pirata One";
 }
@@ -48,8 +48,8 @@ hr {
   text-decoration: none;
   background-image: linear-gradient(
     90deg,
-    rgba(247,248,250) 18%,
-    rgb(255,31,117) 100%
+    rgba(247, 248, 250) 18%,
+    rgb(255, 31, 117) 100%
   );
   background-position: 0% 100%;
   background-repeat: no-repeat;
@@ -57,17 +57,44 @@ hr {
   transition: background-size 0.3s;
 }
 
+nav.icons a {
+  position: relative;
+}
+.cartItemCount {
+  position: absolute;
+  bottom: 2px;
+  right: -2px;
+  background-color: var(--color-principal);
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: normal;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.226);
+}
+
 /* Mediaquerys */
 @media screen and (min-width: 700px) {
   .logo {
-    width: 30%;
+    display: flex;
+    align-items: center;
   }
-  .logo img {
-    width: 30%;
+  .logo a{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
-  .logo h2 {
+
+  .logo a h2 {
     display: flex;
     padding-left: 4px;
+    letter-spacing: normal;
   }
   input {
     display: flex;
@@ -82,17 +109,23 @@ hr {
     font-size: 20px;
   }
   .logo{
-    width: 20%;
-  }
-  .logo h2 {
-    padding-left: 5px;
     display: flex;
-    font-size: 1.1rem;
   }
-  .logo img {
+  .logo a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  .logo a h2 {
+    padding-left: 5px;
+    font-size: 1.2rem;
+  }
+  .logo a img {
     width: 25%;
   }
   .input {
     padding-right: 15%;
   }
+  
 }

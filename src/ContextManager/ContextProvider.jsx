@@ -226,7 +226,6 @@ const removeProductCart = (productId) => {
     </Context.Provider>
   );
 };
-
 export const useCustomContext = () => useContext(Context);
 
 export default ContextProvider;
