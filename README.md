@@ -4,7 +4,7 @@
 ![Diseño del logotipo e ilustración por canva.](https://github.com/MBbettaglio/Trabajo-Front-UTN/assets/117695767/cdeb0327-2b92-4f73-86a6-ce2900dffd69)
 
 
-### [ Deploy de la página ♥ ](https://vercel.com/mbbettaglio/trabajo-front-utn/)
+### [ Deploy de la página ♥ ](https://trabajo-front-utn.vercel.app/)
 ---
 ## ✎ Breve descripción del proyecto y su desarollo. 
 
