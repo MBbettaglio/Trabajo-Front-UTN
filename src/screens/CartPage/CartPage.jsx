@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { useCustomContext } from "../../ContextManager/ContextProvider";
 import { ProductCartCard } from "../../Components";
 import Swal from "sweetalert2";
 import "./CartPage.css";
 
 const CartPage = () => {
-  const { cart, getTotal } = useCustomContext();
+  const { cart, getTotal, clearCart } = useCustomContext();
+  const [cartIsEmpty, setCartIsEmpty] = useState(false);
   const onclickPagar = () => {
     Swal.fire({
       text: "Haz realizado tu compra ;)",
       confirmButtonColor: "#ff1f75",
     });
+    clearCart();
+    setCartIsEmpty(true);
   };
 
   return (
@@ -44,7 +47,7 @@ const CartPage = () => {
             </div>
           </div>
         ) : (
-          <h1>Todavia no hay nada en tu carrito</h1>
+          <h1>Todavía no hay nada en tu carrito</h1>
         )}
       </div>
     </>
