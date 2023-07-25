@@ -42,7 +42,7 @@ input:focus {
   padding: 2vh;
   display: flex;
   background-color: var(--color-fondo);
-  font-size: 25px;
+  font-size: 15px;
   justify-content: center;
 }
 @media screen and (min-width: 700px) {
