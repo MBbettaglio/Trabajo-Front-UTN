@@ -12,7 +12,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Tabernera inspirada en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra con imprimado gris.",
       material: 'Resina Negra',
-      tamaño: '35cm',
+      tamaño: '35mm',
       id: 1,
     },
 
@@ -24,7 +24,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Caballero Espectral inspirado en un set del icónico juego de rol 'El señor de los anillos' / Figura impresa en alta calidad; en resina color transparente. Ideal para las tinturas.",
       material: 'Resina Incolora',
-      tamaño: '40cm',
+      tamaño: '40mm',
       id: 2,
     },
 
@@ -36,7 +36,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Guerrera inspirada en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra con imprimado gris.",
       material: 'Resina Negra',
-      tamaño: '35cm',
+      tamaño: '35mm',
       id: 3,
     },
 
@@ -48,7 +48,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Sucubo inspirado en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra con imprimado gris.",
       material: 'Resina Negra',
-      tamaño: '35cm',
+      tamaño: '35mm',
       id: 4,
     },
 
@@ -60,7 +60,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Duo de Ranitas Magas; inspirada en un set del icónico juego de rol 'Dungeons & Dragons' Figuras impresas en alta calidad; en resina color negra. Muestra con imprimado gris.",
       material: 'Resina Negra',
-      tamaño: '35cm',
+      tamaño: '35mm',
       id: 5,
     },
 
@@ -72,7 +72,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Esqueleto Espectral; inspirado en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color transparente. Ideal para las tinturas.",
       material: 'Resina Incolora',
-      tamaño: '35cm',
+      tamaño: '35mm',
       id: 6,
     },
 
@@ -84,7 +84,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Esqueleto Espectral Lancero; inspirado en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color transparente. Ideal para las tinturas.",
       material: 'Resina Incolora',
-      tamaño: '35cm',
+      tamaño: '35mm',
       id: 7,
     },
     {
@@ -94,7 +94,7 @@ const ContextProvider = ({ children }) => {
       precio: 500,
       descripcion: "Mago inspirado en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra con imprimado gris.",
       material: 'Resina Negra',
-      tamaño: '40cm',
+      tamaño: '40mm',
       stock: 10,
       id: 8,
     },
@@ -106,7 +106,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Lord Vampiro con su montura Murcielago; inspirado en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra con imprimado gris.",
       material: 'Resina Negra',
-      tamaño: '60cm',
+      tamaño: '60mm',
       id: 9,
     },
     {
@@ -117,7 +117,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Nuestro Golum inspirado en un set del icónico juego de rol 'El señor de los anillos' Figura impresa en alta calidad; en resina color negra. Muestra con imprimado gris.",
       material: 'Resina Negra',
-      tamaño: '40cm',
+      tamaño: '40mm',
       id: 10,
     },
     {
@@ -128,7 +128,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Driade inspirada en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra con imprimado gris.",
       material: 'Resina Negra',
-      tamaño: '40cm',
+      tamaño: '40mm',
       id: 11,
     },
     {
@@ -139,7 +139,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Esqueleto Espectral Lancero; inspirado en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color transparente. Ideal para las tinturas.",
       material: 'Resina Incolora',
-      tamaño: '35cm',
+      tamaño: '35mm',
       id: 12,
     },
     {
@@ -150,7 +150,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Mago inspirado en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra sin imprimado.",
       material: 'Resina Negra',
-      tamaño: '40cm',
+      tamaño: '40mm',
       id: 13,
     },
     {
@@ -161,7 +161,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Tabernera inspirada en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra sin imprimado.",
       material: 'Resina Negra',
-      tamaño: '35cm',
+      tamaño: '35mm',
       id: 14,
     },
     {
@@ -172,7 +172,7 @@ const ContextProvider = ({ children }) => {
       stock: 10,
       descripcion: "Ranita Maga, inspirada en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra sin imprimado.",
       material: 'Resina Negra',
-      tamaño: '40cm',
+      tamaño: '40mm',
       id: 15,
     },
     
