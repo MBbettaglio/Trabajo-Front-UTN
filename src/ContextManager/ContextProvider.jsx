@@ -6,7 +6,7 @@ const ContextProvider = ({ children }) => {
   const products = [
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura1.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura1.jpg?raw=true",
       nombre: "Tabernera",
       precio: 500,
       stock: 10,
@@ -18,7 +18,7 @@ const ContextProvider = ({ children }) => {
 
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura2.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura2.jpg?raw=true",
       nombre: "Caballero",
       precio: 700,
       stock: 10,
@@ -30,7 +30,7 @@ const ContextProvider = ({ children }) => {
 
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura3.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura3.jpg?raw=true",
       nombre: "Guerrera",
       precio: 550,
       stock: 10,
@@ -42,7 +42,7 @@ const ContextProvider = ({ children }) => {
 
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura4.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura4.jpg?raw=true",
       nombre: "Sucubo",
       precio: 550,
       stock: 10,
@@ -54,7 +54,7 @@ const ContextProvider = ({ children }) => {
 
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura5.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura5.jpg?raw=true",
       nombre: "Ranitas",
       precio: 1100,
       stock: 10,
@@ -66,7 +66,7 @@ const ContextProvider = ({ children }) => {
 
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura6.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura6.jpg?raw=true",
       nombre: "Esqueleto",
       precio: 600,
       stock: 10,
@@ -78,7 +78,7 @@ const ContextProvider = ({ children }) => {
 
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura7.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura7.jpg?raw=true",
       nombre: "Esqueleto",
       precio: 600,
       stock: 10,
@@ -89,7 +89,7 @@ const ContextProvider = ({ children }) => {
     },
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura8.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura8.jpg?raw=true",
       nombre: "Mago",
       precio: 500,
       descripcion: "Mago inspirado en un set del icónico juego de rol 'Dungeons & Dragons' Figura impresa en alta calidad; en resina color negra. Muestra con imprimado gris.",
@@ -100,7 +100,7 @@ const ContextProvider = ({ children }) => {
     },
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura9.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura9.jpg?raw=true",
       nombre: "Lord & Bat",
       precio: 2000,
       stock: 10,
@@ -111,7 +111,7 @@ const ContextProvider = ({ children }) => {
     },
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura10.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura10.jpg?raw=true",
       nombre: "Golum",
       precio: 700,
       stock: 10,
@@ -122,7 +122,7 @@ const ContextProvider = ({ children }) => {
     },
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura11.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura11.jpg?raw=true",
       nombre: "Elfa Driade",
       precio: 500,
       stock: 10,
@@ -133,7 +133,7 @@ const ContextProvider = ({ children }) => {
     },
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura13.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura13.jpg?raw=true",
       nombre: "Esqueleto",
       precio: 600,
       stock: 10,
@@ -144,7 +144,7 @@ const ContextProvider = ({ children }) => {
     },
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura14.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura14.jpg?raw=true",
       nombre: "Mago S/I",
       precio: 550,
       stock: 10,
@@ -155,7 +155,7 @@ const ContextProvider = ({ children }) => {
     },
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura15.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura15.jpg?raw=true",
       nombre: "Tabernera S/I",
       precio: 550,
       stock: 10,
@@ -166,7 +166,7 @@ const ContextProvider = ({ children }) => {
     },
     {
       imagen:
-        "https://github.com/MBbettaglio/Tp-Carrito/blob/master/src/assets/figura16.jpg?raw=true",
+        "https://github.com/MBbettaglio/Trabajo-Front-UTN/blob/main/src/assets/figura16.jpg?raw=true",
       nombre: "Ranita S/I",
       precio: 450,
       stock: 10,
